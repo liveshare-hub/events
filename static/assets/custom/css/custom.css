@@ -1,0 +1,14 @@
+p#cabang
+{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+p#cabang::after
+{
+    content: 'aaa';
+    width: 50%;
+    height: 100%;
+    color: red;
+    
+}
