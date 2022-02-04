@@ -9,6 +9,8 @@ class UnitKerja(models.Model):
     kode = models.CharField(max_length=3)
     nama_kantor = models.CharField(max_length=100)
 
+    def __str__(self):
+        return f'{self.kode} - {self.nama_kantor}'
 
 class Jabatan(models.Model):
     kode = models.CharField(max_length=3)

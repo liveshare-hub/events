@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import UnitKerja, Jabatan, PesertaEvent
+
+admin.site.register(UnitKerja)
+admin.site.register(Jabatan)
+admin.site.register(PesertaEvent)
